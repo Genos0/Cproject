@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export LD_PRELOAD=/home/garou/Desktop/Cproject/toralize2/toralize.so
+
+${@}
+
+unset LD_PRELOAD
